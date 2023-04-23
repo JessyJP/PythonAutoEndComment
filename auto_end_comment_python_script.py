@@ -1,11 +1,16 @@
 """
-add_end_comments.py
+auto_end_comment_python_script.py
 
 Date: 23-04-2023
-Author: Your Name (you@example.com)
+Author: JessyJP (my_@gmail.com)
 License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
 
-This script takes one or more Python files as input and adds '#end' comments to the end of code blocks such as if statements, loops, and functions.
+Description:
+This script takes one or more Python files as input and automatically adds '#end' comments to the end of code blocks such as if statements, loops, and functions. It helps improve code readability by clearly marking the end of each block. The script processes each file and inserts the '#end' comments while maintaining existing comments and empty lines between code blocks.
+
+Usage:
+python auto_end_comment_python_script.py <file1> [<file2> ...]
+
 """
 
 # Improt
