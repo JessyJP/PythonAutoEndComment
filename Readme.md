@@ -16,6 +16,4 @@ python auto_end_comment_python_script.py <file1> [<file2> ...]
 
 
 ## TODO
-[ ] Improve multi-depth continuation. Currently it's keeping track of only one level. 
-Because the last keyword gets overwritten by the time the block closes.
-Maybe keep one continuation keyword per level.
+[ ] Improve inline block recognition where an ending tag is unnecessary.
